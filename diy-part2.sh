@@ -32,12 +32,6 @@ sed -i 's/R22.2.2/For FMJYY23/g' package/lean/default-settings/files/zzz-default
 #### 64位5.10内核切换5.15
 sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' target/linux/x86/Makefile
 
-sed -i 's/"upnp"/"路由器网络端口转发"/g' feeds/luci/applications/luci-app-upnp/po/zh-cn/upnp.po
-
-sed -i 's/"UPnP"/"路由器网络端口转发"/g' feeds/luci/applications/luci-app-upnp/po/zh-cn/upnp.po
-
-sed -i 's/"通用即插即用（UPnP）"/"路由器网络端口转发"/g' feeds/luci/applications/luci-app-upnp/po/zh-cn/upnp.po
-
 sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' feeds/luci/applications/luci-app-frpc/po/zh-cn/frp.po
 
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
