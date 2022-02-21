@@ -39,5 +39,3 @@ sed -i 's/"UPnP"/"路由器网络端口转发"/g' feeds/luci/applications/luci-a
 sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' feeds/luci/applications/luci-app-frpc/po/zh-cn/frp.po
 
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
-
-#sed -i 's/"CPU 性能优化调节"/"处理器性能优化调节"/g' feeds/luci/applications/luci-app-cpufreq/po/zh-cn/cpufreq.po
