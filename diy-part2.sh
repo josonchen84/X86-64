@@ -16,7 +16,6 @@
 #删除argon
 rm -rf  feeds/luci/themes/luci-theme-argon
 
-#添加老竭力argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 修改主机名字，把YOU-R4A修改你喜欢的就行（不能纯数字或者使用中文）
