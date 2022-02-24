@@ -15,7 +15,7 @@
 
 # Add a feed source
 
-#sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 #sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 
