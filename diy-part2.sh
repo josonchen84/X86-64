@@ -18,13 +18,13 @@ rm -rf  feeds/luci/themes/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 修改主机名
-#sed -i '/uci commit system/i\uci set system.@system[0].hostname='X86'' package/lean/default-settings/files/zzz-default-settings
+sed -i '/uci commit system/i\uci set system.@system[0].hostname='X86'' package/lean/default-settings/files/zzz-default-settings
 
 #### 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
 #sed -i "s/OpenWrt /OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 #### 稳定版修改R21xxx+自己的名字
-#sed -i 's/R22.2.2/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R22.2.2/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
 
 #### 64位5.4内核切换5.10
 #sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
