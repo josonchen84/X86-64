@@ -26,7 +26,7 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='X86'' package/l
 #### 稳定版修改R21xxx+自己的名字
 #sed -i 's/R22.2.2/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
 
-sed -i 's/R22.2.2/R22.3.8/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R22.2.2/R22.3.15/g' package/lean/default-settings/files/zzz-default-settings
 
 sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' feeds/luci/applications/luci-app-frpc/po/zh-cn/frp.po
 
