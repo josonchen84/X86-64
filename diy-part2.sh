@@ -28,6 +28,6 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='X86'' package/l
 
 sed -i 's/R22.2.2/R22.3.15/g' package/lean/default-settings/files/zzz-default-settings
 
-sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透"/g' feeds/luci/applications/luci-app-frpc/po/zh-cn/frp.po
+sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透设置"/g' feeds/luci/applications/luci-app-frpc/po/zh-cn/frp.po
 
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
