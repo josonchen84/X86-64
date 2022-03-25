@@ -30,4 +30,3 @@ sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透设置"/g' feeds/luci/a
 
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
 
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
