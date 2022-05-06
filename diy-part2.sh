@@ -21,7 +21,7 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='X86'' package/l
 
 sed -i "s/OpenWrt /OPWRT/g" package/lean/default-settings/files/zzz-default-settings
 
-sed -i 's/R22.4.1/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R22.5.5/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
 
 sed -i 's/"Frp 内网穿透"/"超级服务器外网穿透设置"/g' feeds/luci/applications/luci-app-frpc/po/zh-cn/frp.po
 
